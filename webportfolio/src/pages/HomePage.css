@@ -2,10 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
-    border: 1px solid green; 
+    border: 1px solid green;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.landing{
+    padding: 0px 50px;
 }
 
 .image-logo{
-    max-width: 200px;
-    padding-bottom: 0;
+    width: 100px;
+    position: fixed;
+    left: 10px;
+}
+
+.background-image{
+    padding-top: 50px;
+}
+
+.image-background{
+    width: 400px;
+    height: 300px;
+}
+
+.head-one{
+    font-size: 4rem;
+    padding-top: 25px;
+    color: #007079;
+}
+
+
+.about-me{
+    padding-top: 150px;
+}
+
+.head-two{
+    font-size: 2rem;
+    color: #625D5D;
+    font-weight: 50;
+}
+
+.icon-details{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icons{
+    color: #007079;
 }

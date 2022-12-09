@@ -57,7 +57,7 @@ return (
                         <img src="https://res.cloudinary.com/dastgstj8/image/upload/v1670505357/tagisam_ng_talino_cs1qlz.png" className="card-img-top h-100" alt="Tagisan ng Talino Quiz Game"/>
                         <div className="card-body">
                             <h5 className="card-title">TAGISAN NG TALINO</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className="card-text">Tagisan ng Talino is a History Quiz game for Filipino of all ages. The objective of the game is to appreciate and remember the rich history of our culture. </p>
                             <a href="#" className="btn btn-outline-secondary"> View Demo </a>
                     </div>
                     </div>
@@ -68,7 +68,7 @@ return (
                     <img src="https://res.cloudinary.com/dpbauifc3/image/upload/v1670482100/web-portfolio/DO-NICHE-SION_alcdzg.png" className="card-img-top h-100" alt="Do-niche-sion Application"/>
                     <div className="card-body">
                         <h5 className="card-title">DO-NICHE-SION</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text">Do-niche-sion is a Donation Website where people could donate to people who needed help and assistance. A platform where you could share your story and help you reach them. </p>
                         <a href="#" className="btn btn-outline-secondary"> View Demo </a>
                     </div>
                     </div>
@@ -79,7 +79,7 @@ return (
                     <img src="https://res.cloudinary.com/dastgstj8/image/upload/v1670509549/PoMo_jwuzwu.png" className="card-img-top h-100" alt="POMO application"/>
                     <div className="card-body">
                         <h5 className="card-title">PO:MO</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        <p className="card-text">PO:MO is a time management application that helps you focus in a single task. It makes you more productive and be more efficient in building habits.</p>
                         <a href="#" className="btn btn-outline-secondary"> View Demo </a>
                     </div>
                     </div>
@@ -90,7 +90,7 @@ return (
                     <img src="https://res.cloudinary.com/dastgstj8/image/upload/v1670511764/Halika_fg9iut.png" className="card-img-top h-100" alt="HaLiKa Donation Application"/>
                     <div className="card-body">
                         <h5 className="card-title">HALIKA</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text">Handog Lingkod Kaagapay or HaLiKa in short is a Donation Inventory Management where all your donations will be tracked and will be delivered to its proper destination.</p>
                         <a href="#" className="btn btn-outline-secondary"> View Demo </a>
                     </div>
                     </div>

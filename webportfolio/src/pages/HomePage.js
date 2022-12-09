@@ -9,6 +9,8 @@ import '../pages/HomePage.css'
 const HomePage = () => {
 return (
     <>
+
+    {/* Hero Section */}
     <div className='landing'>
         <div className='logo'>
             <img className='image-logo'
@@ -25,7 +27,7 @@ return (
 
         <div className='details'>
             <h1 className='head-one'>
-                JULIUS PASILIAO
+                JULIUS ESTRADA PASILIAO
             </h1>
 
             <h2 className='head-two'>
@@ -33,30 +35,106 @@ return (
             </h2>
         </div>
 
+        {/* Social Media Links */}
+
         <div className='icon-details'>
-            <a className='text-decoration-none icons' href='https://github.com/juliuspasiliao09' target='_blank'><Icon.Github size={50} className='me-3'/></a>
-            <a className='text-decoration-none icons' href='https://www.linkedin.com/in/juliusestradapasiliao09/'target='_blank'><Icon.Linkedin size={50} className='me-3'/></a>
-            <a className='text-decoration-none icons' href='https://www.facebook.com/juliusestradapasiliao.09' target='_blank'><Icon.Facebook size={50} className='me-3'/></a>
-            <a className='text-decoration-none icons' href=''><Icon.Twitter size={50} className='me-3'/></a>
-            <a className='text-decoration-none icons' href=''><Icon.Instagram size={50} className='me-3'/></a>
+            <a className='text-decoration-none icons' href='https://github.com/juliuspasiliao09' target='_blank'><Icon.Github size={50} classNameName='me-3'/></a>
+            <a className='text-decoration-none icons' href='https://www.linkedin.com/in/juliusestradapasiliao09/'target='_blank'><Icon.Linkedin size={50} classNameName='me-3'/></a>
+            <a className='text-decoration-none icons' href='https://www.facebook.com/juliusestradapasiliao.09' target='_blank'><Icon.Facebook size={50} classNameName='me-3'/></a>
+            <a className='text-decoration-none icons' href='https://twitter.com/julius_pasiliao' target='_blank'><Icon.Twitter size={50} classNameName='me-3'/></a>
+            <a className='text-decoration-none icons' href='https://www.instagram.com/zeke_dojin' target='_blank'><Icon.Instagram size={50} classNameName='me-3'/></a>
         </div>
     </div>
 
-    <div className='about-me'>
-        <h2 className='head-two'> Projects </h2>
+     {/* Project Section */}
 
-        <div class="card" style={{width: "18rem"}}>
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div className='project-me' >
+        <h2 className='head-tag'> Projects </h2>
+        <div className='card-container'>
+            <div className="row row-cols-1 row-cols-md-2 g-4">
+                <div className="col">
+                    <div className="card h-100">
+                        <img src="https://res.cloudinary.com/dastgstj8/image/upload/v1670505357/tagisam_ng_talino_cs1qlz.png" className="card-img-top h-100" alt="Tagisan ng Talino Quiz Game"/>
+                        <div className="card-body">
+                            <h5 className="card-title">TAGISAN NG TALINO</h5>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="#" className="btn btn-outline-secondary"> View Demo </a>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col">
+                    <div className="card h-100">
+                    <img src="https://res.cloudinary.com/dpbauifc3/image/upload/v1670482100/web-portfolio/DO-NICHE-SION_alcdzg.png" className="card-img-top h-100" alt="Do-niche-sion Application"/>
+                    <div className="card-body">
+                        <h5 className="card-title">DO-NICHE-SION</h5>
+                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="#" className="btn btn-outline-secondary"> View Demo </a>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col">
+                    <div className="card h-100">
+                    <img src="https://res.cloudinary.com/dastgstj8/image/upload/v1670509549/PoMo_jwuzwu.png" className="card-img-top h-100" alt="POMO application"/>
+                    <div className="card-body">
+                        <h5 className="card-title">PO:MO</h5>
+                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" className="btn btn-outline-secondary"> View Demo </a>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col">
+                    <div className="card h-100">
+                    <img src="https://res.cloudinary.com/dastgstj8/image/upload/v1670511764/Halika_fg9iut.png" className="card-img-top h-100" alt="HaLiKa Donation Application"/>
+                    <div className="card-body">
+                        <h5 className="card-title">HALIKA</h5>
+                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="#" className="btn btn-outline-secondary"> View Demo </a>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
     </div>
+
+    {/* Contacts  */}
+
+    <section id='contact' class='container-lg'>
+            <div class='section-header'>
+                <h2 class= 'about-me-header'> Contacts </h2>
+                <hr class='contact-hr'/>
+            </div>
+
+            <p class='contact-title'> Need a Developer? </p>
+
+            <div class='contact-container container-fluid'>
+
+                {/* <!-- Embeded Google Map--> */}
+                <div class='embed-googleMap' >
+                    <div id="my-map-canvas">
+                        <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=16.41413626633633,+120.61782624497278&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="googl-ehtml" href="https://www.embed-map.com" target='https://www.embed-map.com' id="grab-maps-authorization">https://www.embed-map.com</a>
+                </div>
     
+    
+                {/* <!-- Contact Form --> */}
+                <div class='contact-form'>
+                    <form action=''>
+                        <input type='text' id='name' class='name' placeholder='Name' name='name'/>
+                        <input type='email' id='email' class='email' placeholder='Email' name='email'/>
+                        <input type='text' id='subject' class='subject' placeholder='Subject' name='subject'/>
+                        <textarea id='message' name='message' rows='5' cols='50' maxlength='200' placeholder='Message...'></textarea>
+
+                        {/* <!-- button--> */}
+                        <input type='submit' value='Submit'/>
+                    </form>
+                </div>
+            </div>
+        </section>
     </>
     
     
